@@ -50,6 +50,7 @@ public class JuegoCincoIntentos {
             for (Integer intento : intentos) {
                 System.out.print(intento + " ");
             }
+            System.out.println("\n");
             MenuPrincipal();
         }
         else {
@@ -83,7 +84,7 @@ public class JuegoCincoIntentos {
 
     public void MenuPrincipal(){
         Scanner consolaMenu = new Scanner(System.in);
-        System.out.println("\nMENU");
+        System.out.println("MENU");
         System.out.println("1. Jugar.");
         System.out.println("2. Dejar de jugar y retirar ganancias.");
         System.out.println("3. Consultar el saldo ganado hoy.");
